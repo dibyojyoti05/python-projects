@@ -1,0 +1,11 @@
+fastapi==0.111.0
+uvicorn==0.30.1
+pydantic==2.7.4
+langchain-google-genai
+google-generativeai
+google-genai
+python-dotenv==1.0.1
+beautifulsoup4
+requests
+sqlalchemy
+psycopg2-binary

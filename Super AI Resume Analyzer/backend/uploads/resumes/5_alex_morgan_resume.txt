@@ -1,0 +1,28 @@
+
+Alex Morgan
+Senior Full Stack & AI Engineer
+Email: alex.morgan@example.com | Phone: +1-555-0199 | San Francisco, CA
+
+Professional Summary
+Experienced Software Engineer with 5+ years specializing in Python, FastAPI, React, PostgreSQL, Docker, and AWS. Demonstrated track record building high-throughput microservices and deploying machine learning pipelines.
+
+Technical Skills
+Languages: Python, JavaScript, TypeScript, SQL, Bash
+Frameworks: FastAPI, Django, React, Next.js, Node.js
+Databases: PostgreSQL, Redis, MongoDB
+DevOps & Cloud: Docker, Kubernetes, AWS, CI/CD, Git
+AI & ML: PyTorch, Scikit-Learn, NLP, Sentence-Transformers
+
+Work Experience
+Senior Backend Engineer | TechNova Solutions (2022 - Present)
+- Architected and deployed microservices handling 50,000 requests per second using FastAPI and Redis.
+- Designed scalable PostgreSQL schemas and optimized database queries, reducing API latency by 45%.
+- Led continuous integration and automated deployment pipelines with Docker and AWS ECS.
+
+Software Engineer | CloudScale Systems (2020 - 2022)
+- Built responsive user dashboards in React and Next.js, increasing user retention by 30%.
+- Implemented real-time data streaming pipelines using Python, WebSockets, and Redis.
+- Collaborated across agile squads to design and test RESTful API services.
+
+Education
+Bachelor of Science in Computer Science | University of California, Berkeley (2016 - 2020)

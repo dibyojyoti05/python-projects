@@ -1,0 +1,134 @@
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.emailContent {
+  flex: 2;
+  padding: 32px;
+  border-right: 1px solid #2d2f33;
+  overflow-y: auto;
+}
+
+.aiPanel {
+  flex: 1;
+  background-color: #1a1b1e;
+  padding: 32px;
+  overflow-y: auto;
+  border-left: 1px solid #2d2f33;
+}
+
+.subject {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  color: #909296;
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #2d2f33;
+}
+
+.sender {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.body {
+  line-height: 1.6;
+  color: #c1c2c5;
+}
+
+.panelTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section {
+  background-color: #25262b;
+  border: 1px solid #2d2f33;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.sectionTitle {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #909296;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.badgeGroup {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 0.875rem;
+  background-color: #339af0;
+  color: #fff;
+}
+
+.actionItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+  color: #c1c2c5;
+}
+
+.actionCheckbox {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  border: 2px solid #5c5f66;
+  cursor: pointer;
+}
+
+.replyBox {
+  background-color: #25262b;
+  border: 1px solid #2d2f33;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.replyText {
+  color: #c1c2c5;
+  font-style: italic;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.btnGroup {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.2s;
+}
+
+.btn:hover { opacity: 0.9; }
+
+.btnPrimary { background-color: #339af0; color: #fff; }
+.btnSecondary { background-color: #373a40; color: #fff; }

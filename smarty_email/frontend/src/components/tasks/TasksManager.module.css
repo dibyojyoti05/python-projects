@@ -1,0 +1,257 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.header p {
+  color: #8b929e;
+  font-size: 0.88rem;
+}
+
+.filterPills {
+  display: flex;
+  gap: 6px;
+  background: #16181e;
+  padding: 4px;
+  border-radius: 9999px;
+  border: 1px solid #252833;
+}
+
+.filterBtn {
+  background: none;
+  border: none;
+  color: #8b929e;
+  font-size: 0.74rem;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.filterBtn:hover {
+  color: #fff;
+}
+
+.activeFilter {
+  background: #2563eb;
+  color: #fff;
+}
+
+/* Create Form */
+.createForm {
+  background: #16181e;
+  border: 1px solid #232732;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formRow {
+  display: flex;
+  gap: 10px;
+}
+
+.titleInput {
+  flex: 1;
+  background: #1a1d24;
+  border: 1px solid #272b38;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 0.86rem;
+  outline: none;
+}
+
+.titleInput:focus {
+  border-color: #3b82f6;
+}
+
+.prioritySelect {
+  background: #1a1d24;
+  border: 1px solid #272b38;
+  color: #cbd5e1;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  outline: none;
+}
+
+.submitBtn {
+  background: linear-gradient(135deg, #2563eb 0%, #4f46e5 100%);
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.descInput {
+  background: #1a1d24;
+  border: 1px solid #272b38;
+  color: #94a3b8;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  outline: none;
+}
+
+.descInput:focus {
+  border-color: #3b82f6;
+  color: #fff;
+}
+
+/* Tasks list */
+.tasksList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.taskCard {
+  background: #16181e;
+  border: 1px solid #222631;
+  border-radius: 10px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.taskCard:hover {
+  background: #1c1f28;
+  border-color: #2f3545;
+}
+
+.completedCard {
+  opacity: 0.5;
+}
+
+.completedCard .taskTitle {
+  text-decoration: line-through;
+  color: #64748b;
+}
+
+.checkbox {
+  margin-top: 2px;
+}
+
+.iconGreen { color: #22c55e; }
+.iconGray { color: #64748b; }
+
+.taskInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.taskTitleRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.taskTitle {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #f1f5f9;
+}
+
+.priorityPill {
+  font-size: 0.62rem;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.pill_HIGH { background: rgba(239, 68, 68, 0.15); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.3); }
+.pill_MEDIUM { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+.pill_LOW { background: rgba(100, 116, 139, 0.15); color: #94a3b8; border: 1px solid rgba(100, 116, 139, 0.3); }
+
+.taskDesc {
+  font-size: 0.78rem;
+  color: #8b929e;
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+
+.taskMeta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.metaItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.72rem;
+  color: #64748b;
+}
+
+.emailSourceLink {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.72rem;
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+.emailSourceLink:hover {
+  text-decoration: underline;
+}
+
+.deleteBtn {
+  background: none;
+  border: none;
+  color: #64748b;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.deleteBtn:hover {
+  color: #ef4444;
+  background: #261c1c;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 48px 16px;
+  color: #64748b;
+}
+
+.emptyState p {
+  margin-top: 10px;
+  font-size: 0.85rem;
+}

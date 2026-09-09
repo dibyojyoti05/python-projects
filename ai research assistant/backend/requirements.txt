@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+python-dotenv
+sqlalchemy
+chromadb
+openai
+beautifulsoup4
+httpx>=0.28.0
+ddgs
+ollama
+psycopg2-binary
